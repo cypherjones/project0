@@ -1,0 +1,21 @@
+.navbar {
+  border-bottom: 25px solid rgb(0,0,0);
+  padding-bottom:10px;
+  background: lightgrey;
+  .navbar-brand {
+    font-family: Impact, Charcoal, sans-serif;	
+    font-size: 40px;
+  }
+}
+
+.message {
+  line-height: 2.0
+}
+
+p {
+  @extend .message;
+  }
+
+li {
+  @extend .message;
+}
